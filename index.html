@@ -1,139 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nostra</title>
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<!--My css-->
-<link rel="stylesheet" href="style.css">
-<!--font awesome icons-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--Navbar-->
-    <nav class="navbar">
-        <h1>Nostra</h1>
-        <div class="navbar-links">
-            <p class="navbar-link"><a href="index.html">Home</a></p>
-            <p class="navbar-link"><a href="collection.html">Collection</a></p>
-            <p class="navbar-link"><a href="contact.html">Contact</a></p>
-        </div>
-        <div class="navbar-menu-toggle" onclick="showNavbar()">
-            <i class="fa-brands fa-searchengin"></i>
-        </div>
-    </nav>
-    <!--Side Navbar-->
-    <div class="side-navbar">
-        <p style="text-align: right;" onclick="closeNavbar()">
-            <i class="fa-solid fa-xmark"></i>
-        </p>
-        <div class="side-navbar-links">
-            <p class="side-navbar-link"><a href="index.html">Home</a></p>
-            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
-            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>  
-    </div>
-    </div>
-    <!--Header-->
-    <div class="header">
-        <div>
-            <h1>Level up your style</h1>
-            <p>with our stunning collection</p>
-            <button class="header-button">Shop Now</button>
-        </div>
-        <div>
-            <img class="header-img" src="images.jpg" alt="fasion">
-        </div>
-    </div>
-    <!--Service-->
-    <div class="service">
-        <div class="service-container-1">
-            <div>
-                <h2>We Provide Best</h2>
-                <h2>Customer Experience</h2>
+
+
+    <div class="page first-page">
+        <header>
+            <nav class="navbar">
+                <h2>PORTFOLIO</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#github">Github</a></li>
+                    <li><a href="#linkedin">Linkedin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="homepage">
+            <img src="images/WhatsApp Image 2025-01-27 at 4.00.16 PM.jpeg">
+            <div class="short-intro">
+
+                <h1> Welcome to my portfolio</h1>
+                <p> I'm <strong>Ramya J</strong>, Bachelor of Computer Application. This is my first portfolio
+                    website.<br><br><br>
+                    I am a Fresher in Frontend Developer.</p>
             </div>
-            <div>
-                <p>
-                 || We ensure that our customer have the best shopping experience
+        </div>
+    </div>
+
+    <div class="page second-page">
+        <div class="school">
+            <h2 id="about" class="heading">About Me</h2>
+            <div class="introduction">
+
+                <p class="short-para">Hello! It's me <strong>Ramya J  </strong> from Kanchipuram. I am studying
+                    Bachelor in Computer Application at far Sri Sankara Arts and Science college at Enathur.
+                    Currently I am in recent graduation. I am Selflearing for HTML,CSS,REACTJS,GITHUB,PYTHON,SQL,MYSQL so that my skils improved for some rewards of the Certificates gathered in and very good knowledge.I have completed a Data Visualization Internship and fulfilled some tasks to obtain Certification from TATA..
+                    I want to be a full-stack web developer. 
                 </p>
-            </div>
-        </div>
-        <div class="service-container-2">
-            <div>
-                <i class="fa-regular fa-face-smile"></i>
-                <h4>Satisfaction Guarantee </h4>
-                <P>What i find most interesting in fashion is that it has to reflect our time .you have to witness your own moment.</P>
-            </div>
-            <div>
-                <i class="fa-solid fa-wand-magic-sparkles"></i>"></i>
-                <h4>New Arrival Everyday</h4>
-                <P>Style is something each of us already has all we need to do is find it.Every day new Collection Enjoy it .</P>
-            </div>
-            <div>
-                <i class="fa-brands fa-web-awesome"></i>
-                <h4>Fast & Free shipping</h4> </h4>
-                <P>Nostra offers domestic delivery within 3-4 days and international orders within 5-6 days from the date purchase.</P>
-            </div>
-        </div>
-    </div>
-    <div style="padding: 20px;">
-    <h2 style="padding: 20px;">New Arrival</h2>
-    <div class="new-arrival">
-        <div class="new-arrival-container">
-            <img src="download (6).jpg" alt="">
-            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="new-arrival">
-            <div class="new-arrival-container">
-                <img src="download (2).jpg" alt="">
-                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-            <div class="new-arrival">
-                <div class="new-arrival-container">
-                    <img src="big size image.jpg" alt="">
-                    <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                <div class="new-arrival">
-                    <div class="new-arrival-container">
-                        <img src="download.jpg" alt="">
-                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+
+
+
+                <div class="several-interests long-para">
+                    <div class="table">
+
+                        <h3>My interests</h3>
+                        <p>As a passionate full-stack developer, I am deeply intrigued by the art and science of crafting interactive and visually appealing web experiences. My interests lie in exploring responsive design and creating adaptable websites that look stunning on any device.</p>
                     </div>
-                    <div class="new-arrival">
-                        <div class="new-arrival-container">
-                            <img src="download (4).jpg" alt="">
-                            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
-                         </div>        
-              </div>
-            </div>
-            <!--News-->
-    <div class="news">
-        <h2>Join our News Letter</h2>
-        <p>Signup for our email newsletter to get exclusive discounts and updates and more</p>
-        <div>
-            <input type="text" class="search">
-            
-        </div>     
-    </div>
-    <!--footer-->
-  <div class="footer">
-    <div class="footer-container">
-        <div class="footer-box1">
-            <h2 class="headingText">Nostra</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores voluptatem debitis quidem consequatur odio delectus laborum sequi, culpa commodi quaerat animi possimus maiores ab fugiat porro quos fuga. Rerum.</p>
-            <div class="footer-icon-container">
-                <i class="fa-brands fa-instagram" style="color:#ffff"></i>
-                <i class="fa-brands fa-twitter"   style="color:#ffff"></i>
-                <i class="fa-brands fa-facebook" style="color:#ffff"></i>
+                    <div class="table">
+                        <h3>Previous Experience</h3>
+                        <p>I am  fresher with limited professional experience, my focus on projects, internships, or academic achievements that demonstrate your front-end development skills, I have personal Projects to Done To-do Lists, ecommerce website, Bootstrap  template, gen ai gamefiy app, Portfolio  websites to Completed</p>
+                    </div>
+                </div>
+                <p style="margin-left:280px; font-size:20px;">
+                    I am available in 
+                    <strong> Linkedin*Github*Gmail*instagram*</strong> you can connect to be from
+                    there.
+                </p>
+                
             </div>
 
         </div>
-    <p>@2025 Nostra.com</p>
-  </div>
-   
-    <script src="index.js"></script>
+
+    </div>
+
+    <div class="page">
+        <h3 class="heading" id="Skills">My Skills</h3>
+        <div class="skill">
+            <div class="skill-list">
+                <hr>
+                <p>
+                    As I already said I have interest in full-stack.
+                    Nowadays I am learning Web Development. I took various internet
+                    resourses to learn it. The main thing which I cannot forget to say
+                    is, I took 21 days start study classes to learn frontend
+                    development completed html,css,js,reacjs,Bootstrap<strong>Frontend</strong>.
+                    I am learning java nowadays. <br>
+
+                    I have knowlede of programming languages also. I learnt C language in my first
+                    language Object Oriented Programming in python my second language
+                    I am learning Data Structure and Algorithm in my Currently learning. <br>
+                    I have following skills.
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>Reactjs</li>
+                    <li>python</li>
+                    <li>DSA- <span class="skill-learning">learning</span></li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="certificate">
+                <hr>
+                <p>I got certificate by passing the Udemy practical of Reactjs Frontend Web Development.</p>
+                <img src="images/WhatsApp Image 2025-01-27 at 3.18.52 PM.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div class="page third-page">
+        <div id="contact">
+            <h3 class="heading">Contact</h3>
+            <div class="contact">
+                <div class="form">
+
+                    <p>There are many resourses where you can contact me.</p>
+                    <form action="#" method="post">
+                        <div>
+                            Your Name:<br> <label> <input type="text" name="name"></label>
+                        </div><br>
+                        <div>
+                            Your Email: <br><label><input type="email" name="email"></label>
+                        </div><br>
+                        Message:<br>
+                        <label><textarea name="" cols="60" rows="7"></textarea></label>
+
+                        <label><input type="button" value="submit" class="submit"></label>
+
+
+                </div>
+                </form>
+
+                <div class="address">
+
+                    <p>
+                        <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/free-icons/location">
+                        <strong>Location:</strong>
+                         Big Kanchipuram
+                        <br />
+                        Kanchipuram-631502
+                        <br />
+                        Tamil Nadu
+                        <br />
+                        <br />
+                        <strong>Phone:</strong>
+                        6369109080
+                        <br />
+                        <strong>Email:</strong>
+                        03ramya2004@gmail.com
+                        <br />
+                    </p>
+                    <p class="address-para2">You can contact me from here also.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="page github-page">
+        <h1 id="github" class="heading">My Github</h1>
+        <div id="git">
+            <p>This is my Github Profile. You can follow me on this.
+                <strong>Click on this image</strong> to visit my profile. <b style="font-size: 31px;">
+                    <br>---------------></b>
+            </p>
+            <div> <a href="https://github.com/03Ramya2004/Ramya-j?tab=readme-ov-file#ramya-j"> <img src="images/Screenshot (3).png"></a></div>
+        </div>
+        <p class="github-intro">I am active on Github also. I have not uploaded much files on my
+            github. I usually put my own projects assignments on github with the help of
+            git, which all are public repositories. I have basic knowledge of github.
+            I do not have much contribution in github. But in future I will surely
+            upload the all the files in which I will work.
+
+        </p>
+    </div>
+
+    <div class="page linkedin-page">
+        <h1 id="linkedin" class="heading">My linkedin</h1>
+        <div id="link">
+            <p>This is my Linkedin Profile. You can connect me on this also.
+                <strong>Click on this image</strong> to visit my profile. <b style="font-size: 31px;"><br>
+                    ---------------></b>
+            </p>
+            <div> <a href="https://www.linkedin.com/in/03ramya2004/"><img src="images/linkdin.png"></a>
+            </div>
+        </div>
+        <p class="linkedin-intro">This is my linkedin account. You may visit it to know more about me. I am not much
+            expressive.
+            That's why I do not post more. This is the platform used by many professionalists. One can grow their
+            connections
+            here and know about whats going on there professional life. It gives you motivation.
+
+        </p>
+    </div>
+
+    <footer>
+        &copy; DIPA: All Rights Reserved ! 2025
+    </footer>
 </body>
 
 </html>
